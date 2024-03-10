@@ -1,0 +1,25 @@
+{
+  "name": "lp-tech",
+  "version": "1.0.0",
+  "description": "API testing assignment",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garvit-001/LP-Tech.git"
+  },
+  "author": "Garvit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garvit-001/LP-Tech/issues"
+  },
+  "homepage": "https://github.com/garvit-001/LP-Tech#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
