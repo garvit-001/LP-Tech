@@ -3,11 +3,10 @@
 This is a simple web application that allows users to manage sessions with mentors. Users can book, cancel, and reschedule sessions with mentors. The application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
 ## Table of Contents
+
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
 
 ## Prerequisites
 
@@ -25,18 +24,19 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/garvit-001/LP-Tech.git
    cd LP-Tech
 
+   ```
+
 2. install backend dependencies
-cd backend
-npm install
+   cd backend
+   npm install
 
 3. Configure the MongoDB connection:
-Open DB.js and update the MongoDB connection URI as needed.
+   Open DB.js and update the MongoDB connection URI as needed.
 
 4. Run the application:
-nodemon App.js
+   nodemon App.js
 
-## Usage
-API Endpoints
+## API Endpoints
 
 Cancel Session:
 Endpoint: DELETE /cancel_session/:session_id
@@ -50,9 +50,9 @@ Book Recurring Sessions:
 Endpoint: POST /book_recurring_sessions
 Request Body:
 {
-  "userId": 1,
-  "mentorId": 2,
-  "start_date": "2024-03-10",
-  "interval": 1,
-  "duration": 3
+"userId": 1,
+"mentorId": 2,
+"start_date": "2024-03-10",
+"interval": 1,
+"duration": 3
 }
